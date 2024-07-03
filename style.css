@@ -1,0 +1,138 @@
+.navbar {
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navbar img {
+    width: 200px;
+}
+.navbar :hover {
+    color: goldenrod;
+}
+.navbar ul :hover {
+   color: red;
+}
+.clock {
+    font-size: 30px;
+    color: goldenrod;
+    border-left: 20px solid gray;
+    border-right: 20px solid goldenrod;
+}
+footer {
+    background-color: #2c3e50;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 100%) {
+    .body .sidebar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer .container div {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.footer h3 {
+    margin-top: 0;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin: 10px 0;
+}
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer ul li a:hover {
+    color: #00aced;
+}
+.footer .social a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer .social a img {
+    width: 24px;
+    height: 24px;
+}
+@media (max-width: 600px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#animatedText {
+    font-size: 2em;
+    color: #333;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.about a {
+    text-decoration: none;
+    color: white;
+}
+.social a {
+    text-decoration: none;
+    color: white;
+}
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+.hi {
+    text-align: center;
+    /* color: blue; */
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    /* background-image: linear-gradient(gray,white,goldenrod); */
+}
+.hi a {
+    color: goldenrod;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-decoration: none;
+}
+

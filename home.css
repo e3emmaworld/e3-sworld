@@ -1,0 +1,101 @@
+.navbar {
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navbar img {
+    width: 200px;
+}
+.navbar :hover {
+    color: goldenrod;
+}
+.navbar ul :hover {
+   color: green;
+}
+.clock {
+    font-size: 30px;
+    color: goldenrod;
+    border-left: 20px solid gray;
+    border-right: 20px solid goldenrod;
+}
+.hi {
+    text-align: center;
+    /* color: blue; */
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    /* background-image: linear-gradient(gray,white,goldenrod); */
+}
+.hi a {
+    color: green;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 0 0 10px;
+}
+
+.social-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+footer a :hover {
+    color: red;
+}
+@media (max-width: 600px) {
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.about a {
+    text-decoration: none;
+    color: white;
+}
+.social a {
+    text-decoration: none;
+    color: white;
+}
+.contact a {
+    text-decoration: none;
+    color: white;
+}
